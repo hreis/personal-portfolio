@@ -6,36 +6,27 @@ import {
   Github,
   Instagram,
   Linkedin,
-  Rocket,
-  Twitter,
-  User,
-  Youtube
+  HeartPulse,
+  ShoppingBag,
+  Layers
 } from 'lucide-react'
 import { MenuButton } from './MenuButton'
 
 const projectLinks = [
   {
-    name: 'github',
-    url: 'https://github.com/hreis',
-    icon: <Github size={14} />
+    name: 'SurgoHealth',
+    url: 'https://share.cleanshot.com/50lt69RW',
+    icon: <HeartPulse size={14} />
   },
   {
-    name: 'instagram',
-    url: 'https://instagram.com/eihugoreis',
-    icon: <Instagram size={14} />
+    name: 'RFQ - Genesis',
+    url: 'https://share.cleanshot.com/jx6gNXdZ',
+    icon: <ShoppingBag size={14} />
   },
   {
-    name: 'linkedin',
-    url: 'https://www.linkedin.com/in/dev-carvalho-h/',
-    icon: <Linkedin size={14} />
-  },
-  {
-    name: 'twitter',
-    icon: <Twitter size={14} />
-  },
-  {
-    name: 'youtube',
-    icon: <Youtube size={14} />
+    name: 'RTX - Genesis',
+    url: 'https://share.cleanshot.com/34WDkXhV',
+    icon: <Layers size={14} />
   },
 ]
 
