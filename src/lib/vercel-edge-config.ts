@@ -9,7 +9,7 @@ const notionPagesIdStore = z.object({
 })
 
 export async function getNotionPagesId() {
-  const pagesId = await get('notion')
+  const pagesId = await get('my-edge-config')
 
   return notionPagesIdStore.parse(pagesId)
 }
